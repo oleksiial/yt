@@ -16,7 +16,7 @@ const useYoutubePlayer = ({ videoId, onStateChange }) => {
             onStateChange
           },
           playerVars: {
-            // controls: 0,
+            controls: 0,
             disablekb: 1
           }
         })
